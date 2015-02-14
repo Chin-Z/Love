@@ -37,6 +37,7 @@ body {
 }
 
 #messages{
+	font-size: 45px;
 	display: none;
 }
 

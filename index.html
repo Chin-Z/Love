@@ -9,68 +9,91 @@
 			src: url('digital-7_mono.ttf') format("truetype");
 		}
 	</style>
-	<link href="css/default.css" type="text/css" rel="stylesheet">
+	<link href="css/default_dev.css" type="text/css" rel="stylesheet">
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/garden.js"></script>
-    <script type="text/javascript" src="js/functions.js"></script>
+    <script type="text/javascript" src="js/functions_dev.js"></script>
 </head>
 
 <body>
 	<div id="mainDiv">
 		<div id="content">
 			<div id="code">
-				<span class="comments">/**</span><br />
-				<span class="space"/><span class="comments">* 火把节，按照约定好的给你写一点代码���,</span><br />
-				<span class="space"/><span class="comments">* </span><br />
-				<span class="space"/><span class="comments">*/</span><br />
-				Boy i = <span class="keyword">new</span> Boy(<span class="string">"hackerzhou"</span>);<br />
-				Girl u = <span class="keyword">new</span> Girl(<span class="string">"MaryNee"</span>);<br />
-				<span class="comments">// Nov 2, 2010, I told you I love you. </span><br />
-				i.love(u);<br />
-				<span class="comments">// Luckily, you accepted and became my girlfriend eversince.</span><br />
-				u.accepted();<br />
-				<span class="comments">// Since then, I miss u every day.</span><br />
-				i.miss(u);<br />
-				<span class="comments">// And take care of u and our love.</span><br />
-				i.takeCareOf(u);<br />
-				<span class="comments">// You say that you won't be so easy to marry me.</span><br />
-				<span class="comments">// So I keep waiting and I have confidence that you will.</span><br />
-				<span class="keyword">boolean</span> isHesitate = <span class="keyword">true</span>;<br />
-				<span class="keyword">while</span> (isHesitate) {<br />
-				<span class="placeholder"/>i.waitFor(u);<br />
-				<span class="placeholder"/><span class="comments">// I think it is an important decision</span><br />
-				<span class="placeholder"/><span class="comments">// and you should think it over.</span><br />
-				<span class="placeholder"/>isHesitate = u.thinkOver();<br />
-				}<br />
-				<span class="comments">// After a romantic wedding, we will live happily ever after.</span><br />
-				i.marry(u);<br />
-				i.liveHappilyWith(u);<br />
+                火把节，按照约定，给学姐写一小段代码作为礼物<br />
+                写点什么好呢，果然还是按照惯例先FFF吧【举起火把<br />
+                啊不行......<br />
+                现在高举火把的话貌似会引火上身啊╮(╯▽╰)╭<br />
+                <br />
+                
+                Boy I = <span class="keyword">new</span> Boy(<span class="string">"中二"</span>);<br />
+                Girl U = <span class="keyword">new</span> Girl(<span class="string">"Croftmy"</span>);<br />
+                <br />
+                
+                第一次被连续告白wwwww<br />
+                第一次收到情人节巧克力<br />
+                也是第一次，有点认真的喜欢上一个人<br />
+                <br />
+                
+                明明是妹控<br />
+                却偏偏喜欢上了学姐【笑<br />
+                <br />
+                
+                拼尽全力去追赶梦想的学姐<br />
+                真的很厉害<br />
+                即使学姐说自己已经没有passion了<br />
+                我也愿意相信学姐一定能振作起来：<br />
+                一旦习惯了奔跑，才不会因为小小的绊脚石停下脚步<br />
+                也很聪明<br />
+                感觉学姐懂的很多东西比我写的代码要厉害呢<br />
+                <br />
+                
+                
+                啊，除了坚强和聪明的地方之外<br />
+                <br />
+                
+                当然也很可爱www<br />
+                意外的有点路痴<br />
+                吐槽很有趣hhhh<br />
+                少女力MAX的笑容很可爱<br />
+                还有在意体重的时候慌乱的样子<br />
+                虽然经常被学姐调戏，但是也想看看学姐害羞的表情www<br />
+                <br/>
+                
+                因为都是宅所以有很多话题可以聊<br />
+                发现学姐是轨迹死忠粉的时候很激动！<br />
+                一直在被学姐鼓励，即使WL也不觉得特别难过<br />
+                自从那天被表白以来<br />
+                一直很开心！<br />
+                <br />
+                
+                虽然有点迟了【抱歉<br />
+                情人节快乐<br />
+                还有......<br />
+                ......<br />
+                今天天气不错啊哈哈哈wwwww<br />
+                
 			</div>
 			<div id="loveHeart">
 				<canvas id="garden"></canvas>
 				<div id="words">
 					<div id="messages">
-						Minyue, I have fallen in love with you for
-						<div id="elapseClock"></div>
+						Happy Valentine's Day
 					</div>
 					<div id="loveu">
-						Love u forever and ever.<br/>
-						<div class="signature">- hackerzhou</div>
+						<div class="signature">- 中二Forever</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div id="copyright">
 			Inspired by <a href="http://www.openrise.com/lab/FlowerPower/">FlowerPower</a> project.<br />
-			Copyright © 2011 <a href='http://hackerzhou.me'>hackerzhou.me</a> 2009-2011
+			Copyright ¬© 2011 <a href='http://hackerzhou.me'>hackerzhou.me</a> 2009-2011
 		</div>
 	</div>
 	<script type="text/javascript">
 		var offsetX = $("#loveHeart").width() / 2;
 		var offsetY = $("#loveHeart").height() / 2 - 55;
 		var together = new Date();
-		together.setFullYear(2010, 10, 2);
-		together.setHours(20);
 		together.setMinutes(0);
 		together.setSeconds(0);
 		together.setMilliseconds(0);
@@ -88,6 +111,10 @@
 			setTimeout(function () {
 				startHeartAnimation();
 			}, 5000);
+            
+            setTimeout(function () {
+                showMessages();
+            }, 110000);
 
 			timeElapse(together);
 			setInterval(function () {
